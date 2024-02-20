@@ -1,0 +1,23 @@
+int x = 2;
+int y = 3;
+if (x > 0) {
+    // 1 or 4
+    if (y > 0) {
+        Console.WriteLine("1");
+    }
+    else
+    {
+        Console.WriteLine("4");
+    }
+}
+else
+{
+    // 2 or 3
+    if (y < 0) {
+        Console.WriteLine("3");
+    }
+    else
+    {
+        Console.WriteLine("2");
+    }
+}

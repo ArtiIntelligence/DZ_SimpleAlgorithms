@@ -1,0 +1,9 @@
+int n = 1234;
+string nNew = n.ToString();
+int i = 0;
+
+while(i < nNew.Length -1){
+  Console.Write(nNew[i] + ", ");
+  i++;
+}
+Console.Write(nNew[i]);

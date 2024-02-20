@@ -1,0 +1,13 @@
+int num = 47;
+int first = num / 10;
+int second = num % 10;
+
+if (first > second) {
+    Console.WriteLine("Первое число больше второго");
+}
+else if (first < second){
+    Console.WriteLine("Второе число больше первого");
+}
+else {
+    Console.WriteLine("Числа равны");
+}
